@@ -1,0 +1,179 @@
+{
+    "dateTime": "2018-07-05T08:55:05",
+    "data": [
+        {
+            "uid": "d0016c85-56e9-4bfa-a733-76eddbcabad7",
+            "name": "000",
+            "project": {
+                "uid": "d1e700ba-2e2d-11e8-af85-ab4252a20a22",
+                "name": "ХМАО",
+                "description": null
+            },
+            "dataSetType": {
+                "uid": "c553503c-42f1-11e8-8c51-834da412682b",
+                "name": "Article",
+                "systemName": "article"
+            },
+            "dataSetItems": [
+                {
+                    "uid": "1a5694d0-6602-41fb-b68d-329f34134004",
+                    "itemUid": "82165ac1-eb3e-4a46-83ef-dd5ada02d29e",
+                    "dataSetUid": "d0016c85-56e9-4bfa-a733-76eddbcabad7"
+                },
+                {
+                    "uid": "7da2446f-2e12-4fdc-a758-9214eba6f511",
+                    "itemUid": "669bb4fc-ea3d-47fa-8a04-24b0d8c0515a",
+                    "dataSetUid": "d0016c85-56e9-4bfa-a733-76eddbcabad7"
+                },
+                {
+                    "uid": "c4ce130c-18b0-4aea-8fab-2b24209d9c78",
+                    "itemUid": "9d4a4309-fec2-415b-91d0-80aee7589dd9",
+                    "dataSetUid": "d0016c85-56e9-4bfa-a733-76eddbcabad7"
+                },
+                {
+                    "uid": "4762afda-715c-49af-af59-64948c6f7d13",
+                    "itemUid": "9b793ce4-012a-44f2-807e-f26e994959df",
+                    "dataSetUid": "d0016c85-56e9-4bfa-a733-76eddbcabad7"
+                },
+                {
+                    "uid": "3774b26c-1cd7-493b-b994-75389e9e63e7",
+                    "itemUid": "f972a2e4-9c76-4dfc-949b-2688a22cd8a2",
+                    "dataSetUid": "d0016c85-56e9-4bfa-a733-76eddbcabad7"
+                },
+                {
+                    "uid": "c1af2e40-cd5e-42c1-b9c0-8d400df317fc",
+                    "itemUid": "49bef285-63cc-4c8b-8589-5e07f9031e54",
+                    "dataSetUid": "d0016c85-56e9-4bfa-a733-76eddbcabad7"
+                }
+            ]
+        },
+        {
+            "uid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619",
+            "name": "1",
+            "project": {
+                "uid": "d1e700ba-2e2d-11e8-af85-ab4252a20a22",
+                "name": "ХМАО",
+                "description": null
+            },
+            "dataSetType": {
+                "uid": "c553503c-42f1-11e8-8c51-834da412682b",
+                "name": "Article",
+                "systemName": "article"
+            },
+            "dataSetItems": [
+                {
+                    "uid": "cf6d7983-7303-44d8-a497-c9ec3fc94684",
+                    "itemUid": "d2437134-a8ad-4efb-ada6-86f229b253aa",
+                    "dataSetUid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619"
+                },
+                {
+                    "uid": "1ea07c20-712e-4c1d-ab14-fbcb4f805ae9",
+                    "itemUid": "34a89983-b296-4422-863c-d0ad5ca5e841",
+                    "dataSetUid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619"
+                },
+                {
+                    "uid": "827c4822-a7d6-452c-9800-2bc6b53acf92",
+                    "itemUid": "5f162bbd-5548-4b2b-a163-47cdfd44dcaf",
+                    "dataSetUid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619"
+                },
+                {
+                    "uid": "0e5ab739-ef04-4120-a8f7-4769e855f92c",
+                    "itemUid": "dabc05a4-b97a-49e7-99ec-77211f46f272",
+                    "dataSetUid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619"
+                },
+                {
+                    "uid": "cf40dafd-7c85-4040-a2c8-9ae6d5a54a07",
+                    "itemUid": "f7092d61-a6a6-473b-babb-22b96479fea1",
+                    "dataSetUid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619"
+                },
+                {
+                    "uid": "9ef66b5d-30e7-4cb3-861e-d9449583432e",
+                    "itemUid": "ebb06054-3d04-4d92-9a03-a3cd6e4ab6f6",
+                    "dataSetUid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619"
+                },
+                {
+                    "uid": "7981e36b-915b-47af-91b6-8541f36b56d1",
+                    "itemUid": "5cf3e4e3-744a-4873-a58f-4d7e01bbbd97",
+                    "dataSetUid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619"
+                },
+                {
+                    "uid": "9ebbae60-9579-4749-8ca2-e727832026e8",
+                    "itemUid": "43dc9f67-6e01-47bb-b0f9-5d06c41c4ae1",
+                    "dataSetUid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619"
+                },
+                {
+                    "uid": "a5e0a521-6f97-4ab2-8d0e-e6e7a403f61a",
+                    "itemUid": "b68becea-4371-456d-81da-b5de8c2a7ee4",
+                    "dataSetUid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619"
+                },
+                {
+                    "uid": "e61ca0d4-1598-45d9-bd6b-f09cd49d4c74",
+                    "itemUid": "41399945-cd1c-43d6-9a66-fc834e495ea3",
+                    "dataSetUid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619"
+                },
+                {
+                    "uid": "2754b287-a01b-4b6f-a0e4-0b541e09a42a",
+                    "itemUid": "458076cf-3ec1-4eda-96be-795caefe7aca",
+                    "dataSetUid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619"
+                },
+                {
+                    "uid": "6563c9c8-0b35-461b-8a5e-7bd667daf7ac",
+                    "itemUid": "82b8bd22-8e77-40f0-84ce-2c9865271cbb",
+                    "dataSetUid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619"
+                },
+                {
+                    "uid": "47359654-a83e-4573-be91-45ed3b795d09",
+                    "itemUid": "ecb3c2d3-9ea9-4209-a9f0-6ee9cac2aecd",
+                    "dataSetUid": "3cfb6580-ffa3-42fe-b3ad-8ab538e2f619"
+                }
+            ]
+        },
+        {
+            "uid": "2d0aa288-5493-4071-bd8a-00ca023f9a00",
+            "name": "test",
+            "project": {
+                "uid": "d1e700ba-2e2d-11e8-af85-ab4252a20a22",
+                "name": "ХМАО",
+                "description": null
+            },
+            "dataSetType": {
+                "uid": "c553503c-42f1-11e8-8c51-834da412682b",
+                "name": "Article",
+                "systemName": "article"
+            },
+            "dataSetItems": [
+                {
+                    "uid": "3a633393-6bea-4468-ae92-493253ec2e13",
+                    "itemUid": "cea8e939-814c-4289-8ed1-e18e994ecaea",
+                    "dataSetUid": "2d0aa288-5493-4071-bd8a-00ca023f9a00"
+                },
+                {
+                    "uid": "9f9a8a56-eb3a-4963-80b4-36f2ea1384e2",
+                    "itemUid": "d2437134-a8ad-4efb-ada6-86f229b253aa",
+                    "dataSetUid": "2d0aa288-5493-4071-bd8a-00ca023f9a00"
+                },
+                {
+                    "uid": "282544ed-5e05-417b-ad53-de9131be495a",
+                    "itemUid": "74fa787b-506a-40d0-babb-fabfb439dc1f",
+                    "dataSetUid": "2d0aa288-5493-4071-bd8a-00ca023f9a00"
+                },
+                {
+                    "uid": "8fffe0ff-112c-4ebd-b1e0-77cc10a3028e",
+                    "itemUid": "34a89983-b296-4422-863c-d0ad5ca5e841",
+                    "dataSetUid": "2d0aa288-5493-4071-bd8a-00ca023f9a00"
+                },
+                {
+                    "uid": "867b7728-b72f-47fa-aef0-abc8220d4a50",
+                    "itemUid": "e36eb940-c2fa-4d70-8089-21e17f944dff",
+                    "dataSetUid": "2d0aa288-5493-4071-bd8a-00ca023f9a00"
+                },
+                {
+                    "uid": "1e613db5-2dee-43ac-8cb7-00386958759b",
+                    "itemUid": "06e6effa-af7f-4190-9405-61d7fe789114",
+                    "dataSetUid": "2d0aa288-5493-4071-bd8a-00ca023f9a00"
+                }
+            ]
+        }
+    ],
+    "totalCount": 3
+}

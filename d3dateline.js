@@ -78,27 +78,27 @@ function loadchart(div, json) {
             // Bezier curve
             // we assume source is earlier than target or on same day
             var c, upper, lower;
-            if (d.source.x == d.target.x) {
-                // same day - control points on right - need to start with upper
-                if (d.source.y < d.target.y) {
-                    upper = d.source;
-                    lower = d.target;
-                } else {
-                    upper = d.target;
-                    lower = d.source;
-                }
-                c = "M" + upper.x + "," + upper.y +
-                    " C" + (upper.x + ctly) + "," + (upper.y - ctlx) +
-                    " " + (lower.x + ctly) + "," + (lower.y + ctlx) +
-                    " " + lower.x + "," + lower.y;
-            } else {
+            // if (d.source.x == d.target.x) {
+            //     // same day - control points on right - need to start with upper
+            //     if (d.source.y < d.target.y) {
+            //         upper = d.source;
+            //         lower = d.target;
+            //     } else {
+            //         upper = d.target;
+            //         lower = d.source;
+            //     }
+            //     c = "M" + upper.x + "," + upper.y +
+            //         " C" + (upper.x + ctly) + "," + (upper.y - ctlx) +
+            //         " " + (lower.x + ctly) + "," + (lower.y + ctlx) +
+            //         " " + lower.x + "," + lower.y;
+            // } else {
                 // different days - use ellipse
                 var dx = d.target.x - d.source.x,
                     dy = d.target.y - d.source.y,
                     dr = Math.sqrt(dx * dx + dy * dy);
                 c = "M" + d.source.x + "," + d.source.y + "A" + dr + "," + dr + " 0 0,1 " + 
                 	d.target.x + "," + d.target.y;
-            }
+            // }
             return c;
         }
 
@@ -231,12 +231,22 @@ function loadchart(div, json) {
         function tick(e) {
             // artificial gravity, based on node type
             var k = 20 * e.alpha;
+            // graph.nodes.forEach(function (o, i) {
+            //     if (o.type == "isAnswer") // move right
+            //         o.x += k;
+            //     else if (o.type == "hasAnswer") // move left
+            //         o.x += -k;
+            //     else if (o.type == "free") // move up
+            //         o.y += -k;
+            // });
+
             graph.nodes.forEach(function (o, i) {
-                if (o.type == "isAnswer") // move right
-                    o.x += k;
-                else if (o.type == "hasAnswer") // move left
-                    o.x += -k;
-                else if (o.type == "free") // move up
+                // if (o.type == "isAnswer") // move right
+                //     o.x += k;
+                // else if (o.type == "hasAnswer") // move left
+                //     o.x += -k;
+                // else if (o.type == "free") // move up
+                if (o.type == "free") // move up
                     o.y += -k;
             });
 
@@ -252,7 +262,7 @@ function loadchart(div, json) {
 
             // constrain to bounding box
             node.attr("cx", function (d) {
-                return d.x = Math.max(15, Math.min(width - 15, d.x));
+                    return d.x = Math.max(15, Math.min(width - 15, d.x));
             	})
                 .attr("cy", function (d) {
                     return d.y = Math.max(15, Math.min(height - 15, d.y));
